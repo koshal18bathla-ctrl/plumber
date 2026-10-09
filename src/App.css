@@ -1,0 +1,23 @@
+
+.welcome {
+  min-height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #eaf5ff, #ffffff);
+}
+
+.welcome h1 {
+  color: #123c69;
+  font-size: clamp(32px, 5vw, 56px);
+  margin-bottom: 12px;
+}
+
+.welcome p {
+  color: #52677d;
+  font-size: 18px;
+  line-height: 1.7;
+}
