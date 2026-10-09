@@ -1,22 +1,29 @@
-
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import Home from "./Home";
 import "./App.css";
 
 function App() {
-  return (
-    <>
-      <Navbar />
+return (
+<> <Navbar />
 
-      <main id="home" className="welcome">
-        <h1>Welcome to PlumberPro</h1>
-        <p>Your trusted partner for professional plumbing services.</p>
-      </main>
-       <Home />
-      <Footer />
-    </>
-  );
+```
+  <main id="home">
+    <section className="welcome">
+      <img
+        src="/src/assets/plumberpro-banner.jpg"
+        alt="Welcome to PlumberPro plumbing services"
+        className="welcome-image"
+      />
+    </section>
+
+    <Home />
+  </main>
+
+  <Footer />
+</>
+
+);
 }
 
 export default App;
