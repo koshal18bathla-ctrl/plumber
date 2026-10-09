@@ -7,7 +7,6 @@ function App() {
 return (
 <> <Navbar />
 
-```
   <main id="home">
     <section className="welcome">
       <img

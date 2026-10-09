@@ -136,7 +136,7 @@ height: auto;
 object-fit: cover;
 }
 
-/* Responsive design */
+
 @media (max-width: 768px) {
 .welcome-image {
 width: 100%;
